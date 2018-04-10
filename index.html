@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stronka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Kalam|Titillium+Web" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header id="main-header">
+        <div class="container">
+            <div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-12 col-ms-2 col-md-2 col-lg-2">
+                    <h2><span class="primary-text">Cześć</span> i hej</h2>
+                </div>
+                <div class="col-xs-12 col-ms-10 col-md-10 col-lg-10">
+                    <nav id="navbar">
+                        <label for=toggle>&#9776;</label>
+                        <input type="checkbox" id="toggle">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#showcase">Strona główna</a></li>
+                                <li><a href="#about_me">O mnie</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SHOWCASE -->
+    <section id="showcase">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-7 showcase-content">
+                    <h1>Witam <span class="primary-text">na mojej stronie</span></h1>
+                    <p>Do zbudowania tej strony użyłem: HTML5, CSS3, JavaScript oraz flexgrida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_me">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-4 col md-4 col-lg-4 aboutit">
+                    <h2>O mnie!</h2>
+                    <img src="images/theme/mojefoto.jpg" id="my_photo">
+                    <p class="text-about">
+                        Nazywam sie Piotr Glejzer. Z wykształcenia jestem inżynierem budowcnitwa. Niedawno studiowałem na Politechnice Warszawskiej, jednak stwierdziłem, że chcę zostać programistą i przerwałem studia i zacząłem sie uczyć front-end'u. Dotychczasowa nauka podstaw z HTML/CSS/JS najogólniej mowiąc sprawia mi duża frajdę i jestem przekononay w 100%,że chcę obrać taka dalsza scieżkę kariery.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="vr">
+                        <h3> Co lubię robić:</h3>
+                        <h6>(w formie 'wiersza')</h6>
+                        <img src="images/icons/heavy-metal.png" class="metal">
+                        <ul>
+                            <li>Czasami gdy słońe wstaje,</li>
+                            <li>Zbiera mi sie na ziewanie,</li>
+                            <li>Lubię leżeć i odpoczywać,</li>
+                            <li>Choć czasam i cięzko z tym bywa,</li>
+                            <li>Trzeba robić, trzeba znosić,</li>
+                            <li>Chociaż nikt sie o to nie prosił</li>
+                            <li>Problemy rozwiązywać,</li>
+                            <li>Uczyć sie i nagabywać,</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features -->
+    <section id="features">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Technologie</h2>
+                    <p>Co zawieraja moje strony</p>
+                    <!-- icon row 1 -->
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div id="responsive"></div>
+                            <h4>W pełni responsywne</h4>
+                            <p>Staram sie aby moje strony były wyświetlane prawidłowo na każdym urządzeniu.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-html5 html5"></i>
+                            <h4>HTML5</h4>
+                            <p>Używam najnowszych standardów wydanych przez W3C.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS3</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, magnam.</p>
+                        </div>
+                    </div>
+                    <!-- icon row 2 -->
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-js-square" index="js"></i>
+                            <h4>JavaScript</h4>
+                            <p>Uczę sie podstaw od niedawna. Staram się każdego dnia uczyć czegoś nowego niezapominając o tym czego nauczyłem sie wcześniej.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div id="jq"></div>
+                            <h4>jQuery</h4>
+                            <p>Używam w mniejszym stopniu niż JS ze względu na to ze nie znam aż tak dobrze jeszcze JS aby sprawnie operować tą biblioteka :)</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div id="bootstrap"></div>
+                            <h4>Bootstrap</h4>
+                            <p>Bardzo przydatny framework w szybkim postawieniu strony.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image -->
+
+    <section id="images1">
+        <div class="container">
+            <div class="pimg">
+                <div class="row1 center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- info section -->
+
+    <section id="info">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs 12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Co planuję sie nauczyć!</h2>
+                    <!-- icon row 3 -->
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-react react"></i>
+                            <h4>React.js</h4>
+                            <p>Do dzisiejszego dnia miałem bardzo mało styczności z tą biblioteka, zrobiłem tylko jedna prostę stroną. Planuję jak najwięcej cwiczyc! </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-node-js node"></i>
+                            <h4>Node.js</h4>
+                            <p>Ze względu na to ze w najbliższym czasie planuje zostać Front-end developerem a w szczególności JavaScript developerem to node.js jako środowisko napisane w JS planuję opanować do perfekcji.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-sass sass"></i>
+                            <i class="fab fa-less less"></i>
+                            <h4>Sass/Less</h4>
+                            <p>Czemu znalazł sie tutaj Sass i Less? Nie ze względu na to ze nie wiem co to czy nie umiem sie tym posługiwać tylko że jako że mam małe doświadczenie w tworzeniu stron nie mam wprawy do używania tych preprocessorów.</p>
+                        </div>
+                    </div>
+                    <!-- icon row 4 -->
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div id="irub"></div>
+                            <h4>Ruby</h4>
+                            <p>Bardzo zaciekawił mnie ten język programowania. Gdy znajdę tylko wolny czas nauczę sie go :) </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div id="python"></div>
+                            <h4>Python</h4>
+                            <p>Python'a planowałem nauczyc sie juz przed rozpoczęciem moich studiów inżynierskich jednakże nie doszło do tego i nadal mi siedzi w głowie.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <i class="fab fa-php php"></i>
+                            <h4>Php</h4>
+                            <p>Zamierzam także nauczyc sie podstaw PHP aby sprawniej operować w front-end'zie. Do tego najprawdopodobniej dojda bazy danych sql.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Image 2-->
+
+    <section id="images2">
+        <div class="container">
+            <div class="pimg">
+                <div class="row1 center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg "></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs 12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Moje prace!</h2>
+                    <!-- projects -->
+                    <div class="row center-xs center-sm center-md center-lg">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project1"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project2"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project3"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project4"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project5"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="p1" id="project6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image 3 -->
+
+    <section id="images3">
+        <div class="container">
+            <div class="pimg">
+                <div class="row1 center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-sm-12 col-md-12 col-lg-12">
+                    <div>Projekt wykonany przez <span class="name">Piotr Glejzer </span>=
+                        <a href="https://www.facebook.com/piotr.glejzer" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Piotrrrek"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/piotr-glejzer/"><i class="fab fa-linkedin "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

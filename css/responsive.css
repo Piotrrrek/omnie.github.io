@@ -1,0 +1,111 @@
+/*media queries*/
+
+@media(max-width:800px){
+    #showcase h1{
+        font-size:30px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:376px){
+    #showcase .showcase-content{
+        margin-top:40px;
+    }
+}
+@media(max-width:500px){
+    #showcase .showcase-content{
+        padding:40px 10px;
+    }
+    #features{
+        padding: 10px;
+    }
+} 
+@media only screen and (max-width: 991px) {
+    #main-header h1{
+        text-align: right;
+    }
+    #features{
+        padding: 10px;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }         
+    #toggle:checked + .menu {
+        display: block;
+    }
+    #main-header{
+        padding: 10px;
+    }
+    #showcase,
+    #images1,
+    #images2,
+    #images3{
+        background-attachment:scroll;
+        background-size: cover;
+        
+    }
+    #showcase .showcase-content h1{
+        font-size: 35px;
+    }
+    #navbar a{
+        width: 20%;
+        box-shadow: 0px 1px 0px 0px rgba(38,144,212, 0.8); 
+        border: 1px solid #2690d4;
+        border-radius: 70px;
+        border-bottom: 2px solid #2690d4;
+    }
+    #navbar a:hover{
+        background-color:rgba(38,144,212, 0.8);
+        color:#fff;
+        transition: 0.3s;
+    }
+    #navbar li{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 5px 0;
+    }
+    #about_me {
+        padding: 4px;
+    }
+    #about_me h2{
+        padding-bottom: 10px;
+    }
+    #about_me li{
+        text-align: justify;
+    }
+}
+@media(max-width:767px){
+    .vr{
+        border-left: none;
+    }
+    #about_me ul{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        text-align: left;
+        padding: 0;
+    }
+    #about_me li{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    #about_me h3{
+        padding-top:20px;
+    }
+    #about_me h6{
+        padding-bottom:10px;
+    }
+}
+@media only screen and (max-width: 580px){
+    #navbar a{
+        width:25%;
+}
+

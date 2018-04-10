@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+    font-family: 'Dosis', 'Titillium Web', sans-serif;
+}
+
+/* common clases */
+
+.primary-text {
+    color: #2690d4;
+}
+
+.primary-background {
+    background: #2690d4;
+}
+
+/*header*/
+
+header {
+    position: fixed;
+    right: 0x;
+    left: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#main-header {
+    border-bottom: 1px solid #2690d4!important;
+}
+
+#main-header h2 {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    text-align: center;
+    height: 12px;
+}
+
+/*navbar*/
+
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+
+#navbar a {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.8m;
+}
+
+#navbar a:hover {
+    color: #2690d4;
+    border-bottom: 2px solid #2690d4;
+}
+
+/* hamburger */
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 1.5em;
+}
+
+label {
+    margin: 10px 10px;
+    font-size: 22px;
+    line-height: 20px;
+    display: none;
+    width: 50%;
+    text-align: right;
+
+}
+
+#toggle {
+    display: none;
+}
+
+/*showcase*/
+
+#showcase {
+    background: url(../images/theme/new-york-taxi-street-lights-road-building.jpg) no-repeat center center;
+    border-bottom: 1px solid #2690d4;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#showcase .row {
+    height: 700px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p {
+    color: #fff;
+    margin: 0;
+}
+
+#showcase .showcase-content {
+    background: #333;
+    color: #fff;
+    border-radius: 70px;
+    padding: 30px;
+    opacity: 0.9;
+}
+
+/*features*/
+
+#features h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 10px;
+}
+
+#features p {
+    color: #000;
+    margin: 0;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+}
+
+#features .svg-inline--fa {
+    font-size: 40px;
+    color: #000;
+}
+
+#features .fa-js-square:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: #F2F20D;
+}
+
+#features .fa-html5:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: orangered;
+}
+
+#features .fa-css3-alt:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: royalblue;
+}
+
+#jq {
+    display: inline-block;
+    background-image: url(../images/icons/jquery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
+#jq:hover {
+    background-image: url('../images/icons/jquery-color.png');
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+
+#bootstrap {
+    display: inline-block;
+    background-image: url('../images/icons/bootsrap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
+#bootstrap:hover {
+    background-image: url('../images/icons/bootsrap-color.png');
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+
+#responsive {
+    display: inline-block;
+    background-image: url('../images/icons/responsive.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
+#responsive:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+
+/*images*/
+
+.row1 {
+    height: 500px;
+}
+
+#images1 {
+    background: url(../images/theme/america-american-flag-architecture-450597.jpg);
+    border-bottom: 1px solid #2690d4;
+    opacity: 0.9;
+    background-size: cover;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#images2 {
+    background: url(../images/theme/architecture-blue-sky-building-286076.jpg);
+    border-bottom: 1px solid #2690d4;
+    opacity: 0.8;
+    background-size: cover;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#images3 {
+    background: url(../images/theme/landscape-1802340_1920.jpg);
+    border-bottom: 1px solid #2690d4;
+    opacity: 0.9;
+    background-size: cover;
+    -webkit-background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*info*/
+
+#info {
+    background: #fff;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+#info h2 {
+    font-size: 35px;
+    line-height: 0.9em;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#info h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#info p {
+    padding-bottom: 17px;
+}
+
+#info .svg-inline--fa {
+    font-size: 40px;
+}
+
+#irub {
+    width: 45px;
+    display: inline-block;
+    background-image: url('../images/icons/ruby_black.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+}
+
+#irub:hover {
+    transform: scale(1.5);
+    transition: 0.7s;
+    background-image: url(../images/icons/ruby_red.png)
+}
+
+#python {
+    display: inline-block;
+    background-image: url('../images/icons/python_dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
+#python:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    background-image: url('../images/icons/python_color.png');
+}
+
+.node:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: green;
+}
+
+.php:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: rgb(120, 124, 180);
+}
+
+.sass:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: pink;
+}
+
+.less:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: blue;
+}
+
+.react:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+    color: #2690d4;
+}
+
+/*footer*/
+
+#main-footer {
+    padding: 1em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+.name {
+    color: #2690d4;
+}
+
+.fa-facebook {
+    color: #fff;
+}
+
+.fa-github-square {
+    color: #fff;
+}
+
+.fa-linkedin {
+    color: #fff;
+}
+
+.fa-facebook:hover {
+    color: rgb(66, 103, 178);
+    transition: 0.4s;
+}
+
+.fa-github-square:hover {
+    color: rgb(128, 0, 128);
+    transition: 0.4s;
+}
+
+.fa-linkedin:hover {
+    color: rgb(66, 103, 178);
+    transition: 0.4s;
+}
+
+/*about*/
+
+.vr {
+    border-left: thick solid rgb(136, 84, 130);
+    height: 100%;
+}
+
+#about_me {
+    padding: 60px;
+}
+
+#about_me h2,
+#about_me h3,
+    {
+    padding-bottom: 10px;
+}
+
+#my_photo {
+    background: url('/images/theme/mojefoto.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    margin-top: 30px;
+}
+
+.text-about {
+    padding: 5px 0;
+    text-align: justify;
+}
+
+#about_me li {
+    list-style: none;
+}
+
+#about_me ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 31px;
+}
+
+.aboutit {
+    padding-right: 15px;
+}
+
+.metal {
+    width: 129px;
+    margin: 15px 0;
+}
+
+/*Portfolio*/
+
+.p1 {
+    border: 1px solid #2690d4;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    height: 200px;
+    cursor: pointer;
+    transition: .3s all cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.p1:hover {
+    box-shadow: -4px 4px 5px 0px rgba(24, 113, 222, 1);
+}
+
+#portfolio h2 {
+    margin: 50px 0;
+}
+
+#project1 {
+    background: url(../images/theme/architecture-bay-bridge-771883.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    background-color: rgb(244, 244, 244);
+    filter: grayscale(85%);
+}
+
+#project1:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
+
+#project2 {
+    background: url('../images/theme/architecture-bay-bridge-771883.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    filter: grayscale(85%);
+}
+
+#project2:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
+
+#project3 {
+    background: url('../images/theme/architecture-bay-bridge-771883.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    filter: grayscale(85%);
+}
+
+#project3:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
+
+#project4 {
+    background: url('../images/theme/architecture-bay-bridge-771883.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    filter: grayscale(85%);
+}
+
+#project4:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
+
+#project5 {
+    background: url('../images/theme/architecture-bay-bridge-771883.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    filter: grayscale(85%);
+}
+
+#project5:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
+
+#project6 {
+    background: url('../images/theme/architecture-bay-bridge-771883.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    filter: grayscale(85%);
+}
+
+#project6:hover {
+    filter: grayscale(0);
+    transition: 0.4s;
+}
